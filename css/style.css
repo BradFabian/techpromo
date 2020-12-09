@@ -1,0 +1,32 @@
+/*
+Global
+
+font blinker source sans pro
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-size: 1rem;
+  background: #111d4a;
+}
+h1 {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #05cbe9;
+  font-family: "Blinker", sans-serif;
+}
+
+button {
+  font-size: 1.6rem;
+}
