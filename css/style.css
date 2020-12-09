@@ -15,6 +15,7 @@ body,
 html {
   font-size: 1rem;
   background: #111d4a;
+  font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
   font-size: 2rem;
@@ -27,6 +28,41 @@ h4 {
   font-family: "Blinker", sans-serif;
 }
 
-button {
-  font-size: 1.6rem;
+p {
+  color: grey;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5em;
+  background-color: #05cbe9;
+  color: #111d4a;
+  letter-spacing: 1.6;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-img {
+  height: 15%;
+  width: 100%;
+}
+
+.card-content {
+  height: 85%;
+}
+
+.readmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
