@@ -18,18 +18,26 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 h1,
 h2,
 h3,
 h4 {
   color: #05cbe9;
+  text-align: left;
+}
+
+.minute,
+.btn,
+.title {
   font-family: "Blinker", sans-serif;
+  font-weight: 700;
 }
 
 p {
   color: grey;
+  text-align: left;
 }
 
 .btn {
@@ -50,15 +58,19 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .card-img {
-  height: 15%;
+  height: 30%;
   width: 100%;
 }
 
 .card-content {
-  height: 85%;
+  height: 70%;
 }
 
 .readmore {
