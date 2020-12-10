@@ -2,7 +2,7 @@
 Global
 
 font blinker source sans pro
-*/
+
 
 *,
 *::after,
@@ -10,11 +10,11 @@ font blinker source sans pro
   margin: 0;
   padding: 0;
 }
-
+*/
 body,
 html {
   font-size: 1rem;
-  background: #111d4a;
+
   font-family: "Source Sans Pro", sans-serif;
 }
 h1 {
@@ -36,17 +36,17 @@ h4 {
 }
 
 p {
-  color: grey;
   text-align: left;
 }
 
 .btn {
   font-size: 1rem;
-  padding: 0.5em;
+  padding: 0.25em 1.25em;
   background-color: #05cbe9;
   color: #111d4a;
   letter-spacing: 1.6;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 a {
@@ -58,23 +58,40 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 100vh;
+
   width: 90%;
   margin: 0 auto;
   max-width: 800px;
+  color: #ffff;
+  background: #111d4a;
 }
 
 .card-img {
-  height: 30%;
-  width: 100%;
+  object-fit: cover;
+  height: 150px;
 }
 
 .card-content {
-  height: 70%;
+  padding: 1em;
+}
+
+.title {
+  margin: 0;
 }
 
 .readmore {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.maintext {
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
+}
+
+.minute {
+  margin: 0;
 }
